@@ -14,6 +14,9 @@
 		4F5D40D824A6A9B400BABC34 /* todo_Naveen_c0765772.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D40D624A6A9B400BABC34 /* todo_Naveen_c0765772.xcdatamodeld */; };
 		4F5D40DA24A6A9BB00BABC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D40D924A6A9BB00BABC34 /* Assets.xcassets */; };
 		4F5D40DD24A6A9BB00BABC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D40DB24A6A9BB00BABC34 /* LaunchScreen.storyboard */; };
+		4F5D40E624A7B87100BABC34 /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D40E524A7B87100BABC34 /* TaskVC.swift */; };
+		4F5D40EC24A837FF00BABC34 /* Cell Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D40EB24A837FF00BABC34 /* Cell Controller.swift */; };
+		4F5D40EE24A83B3300BABC34 /* UserTasksTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5D40ED24A83B3300BABC34 /* UserTasksTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4F5D40D924A6A9BB00BABC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F5D40DC24A6A9BB00BABC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F5D40DE24A6A9BB00BABC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5D40E524A7B87100BABC34 /* TaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
+		4F5D40EB24A837FF00BABC34 /* Cell Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cell Controller.swift"; sourceTree = "<group>"; };
+		4F5D40ED24A83B3300BABC34 /* UserTasksTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTasksTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		4F5D40CC24A6A9B400BABC34 /* todo_Naveen_c0765772 */ = {
 			isa = PBXGroup;
 			children = (
+				4F5D40E424A7B7FB00BABC34 /* Controllers */,
 				4F5D40CD24A6A9B400BABC34 /* AppDelegate.swift */,
 				4F5D40CF24A6A9B400BABC34 /* SceneDelegate.swift */,
 				4F5D40D124A6A9B400BABC34 /* ViewController.swift */,
@@ -68,6 +75,16 @@
 				4F5D40D624A6A9B400BABC34 /* todo_Naveen_c0765772.xcdatamodeld */,
 			);
 			path = todo_Naveen_c0765772;
+			sourceTree = "<group>";
+		};
+		4F5D40E424A7B7FB00BABC34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F5D40E524A7B87100BABC34 /* TaskVC.swift */,
+				4F5D40EB24A837FF00BABC34 /* Cell Controller.swift */,
+				4F5D40ED24A83B3300BABC34 /* UserTasksTVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5D40EE24A83B3300BABC34 /* UserTasksTVC.swift in Sources */,
 				4F5D40D224A6A9B400BABC34 /* ViewController.swift in Sources */,
+				4F5D40EC24A837FF00BABC34 /* Cell Controller.swift in Sources */,
 				4F5D40D824A6A9B400BABC34 /* todo_Naveen_c0765772.xcdatamodeld in Sources */,
 				4F5D40CE24A6A9B400BABC34 /* AppDelegate.swift in Sources */,
+				4F5D40E624A7B87100BABC34 /* TaskVC.swift in Sources */,
 				4F5D40D024A6A9B400BABC34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
